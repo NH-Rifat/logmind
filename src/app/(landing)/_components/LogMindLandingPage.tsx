@@ -116,7 +116,6 @@ export default function LogMindLandingPage() {
             sectionRef={searchSectionRef as React.RefObject<HTMLElement>}
           />
 
-          {/* Search results */}
           {/* <SearchResults
             showResults={showResults}
             searchQuery={searchQuery}
