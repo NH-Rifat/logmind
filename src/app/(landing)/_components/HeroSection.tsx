@@ -57,7 +57,7 @@ export default function HeroSection({
               : "opacity-100 translate-y-0"
           )}
         >
-          Smart Log Analytics Platform
+          Search Logs Faster Analyze Smarter
         </h1>
 
         <p
