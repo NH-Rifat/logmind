@@ -173,7 +173,7 @@ export default function HeroSection({
       {/* Stats */}
       <div
         className={cn(
-          "absolute bottom-8 left-0 right-0 flex justify-center gap-16 transition-all duration-500",
+          " pt-5 flex justify-center gap-3 smd:gap-16 transition-all duration-500",
           searchFocused
             ? "opacity-0 translate-y-10"
             : "opacity-100 translate-y-0"

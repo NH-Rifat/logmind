@@ -71,7 +71,7 @@ export default function AnimatedLogo({ className, size = "md", onClick }: Animat
         </div>
 
         {/* Floating Particles */}
-        <div className="absolute -inset-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+        <div className="absolute -inset-4 opacity-100 group-hover:opacity-100 transition-opacity duration-500">
           {[...Array(6)].map((_, i) => (
             <div
               key={i}

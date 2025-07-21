@@ -97,7 +97,7 @@ export default function LogMindLandingPage() {
       <BackgroundElements />
 
       {/* Main content */}
-      <div className="relative z-10">
+      <div className="relative z-10 container ">
         {/* Header */}
         <Header 
           activeSection={activeSection} 
@@ -117,14 +117,14 @@ export default function LogMindLandingPage() {
           />
 
           {/* Search results */}
-          <SearchResults
+          {/* <SearchResults
             showResults={showResults}
             searchQuery={searchQuery}
             selectedLog={selectedLog}
             setSelectedLog={setSelectedLog}
             onClose={() => setShowResults(false)}
             resultsRef={resultsRef as React.RefObject<HTMLDivElement>}
-          />
+          /> */}
 
           {/* How it works section */}
           <HowItWorks 

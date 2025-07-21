@@ -25,7 +25,7 @@ export default function Pricing({ sectionRef }: PricingProps) {
           and scale as your applications grow.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {pricingPlans.map((plan, index) => (
             <div key={index} className="relative group">
               {plan.popular && (
